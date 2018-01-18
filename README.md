@@ -3,6 +3,41 @@
 
 该项目由[@jeasonlzy/VerticalSlideView](https://github.com/jeasonlzy/VerticalSlideView)项目修改而来，只是对[@jeasonlzy/VerticalSlideView](https://github.com/jeasonlzy/VerticalSlideView)项目的[@VerticalSlide.java](https://github.com/jeasonlzy/VerticalSlideView/blob/master/verticalslide/src/main/java/com/lzy/widget/VerticalSlide.java)进行了修改，使得其支持多页拖拽功能，具体使用方法与[@jeasonlzy/VerticalSlideView](https://github.com/jeasonlzy/VerticalSlideView)的使用方式完全一致。
 
+使用方式
+---
+(1)maven
+
+    Step 1. Add the JitPack repository to your build file
+        <repositories>
+          <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+          </repository>
+        </repositories>
+        
+    Step 2. Add the dependency
+        <dependency>
+            <groupId>com.github.CodingCodersCode</groupId>
+            <artifactId>CCVerticalDragToSlideLayout</artifactId>
+            <version>V1.0</version>
+        </dependency>
+
+(2)gradle
+  
+    - project root `build.gradle`:
+        allprojects {
+              repositories {
+                  ......
+                  maven { url 'https://jitpack.io' }
+                  maven { url 'https://maven.google.com' }
+              }
+          }
+          
+     - app `build.gradle`:
+        dependencies {
+	        compile 'com.github.CodingCodersCode:CCVerticalDragToSlideLayout:V1.0'
+	      }
+
 效果图
 ---
 ![image](https://github.com/CodingCodersCode/CCVerticalDragToSlideLayout/blob/master/screenshot/screenshot.gif)
