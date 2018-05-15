@@ -22,7 +22,7 @@
 	<dependency>
 		<groupId>com.github.CodingCodersCode</groupId>
 		<artifactId>CCVerticalDragToSlideLayout</artifactId>
-		<version>V1.0</version>
+		<version>V1.0.2</version>
 	</dependency> 
 
   
@@ -41,7 +41,7 @@
    - app `build.gradle`:
    
    	dependencies {
-	        compile 'com.github.CodingCodersCode:CCVerticalDragToSlideLayout:V1.0'
+	        compile 'com.github.CodingCodersCode:CCVerticalDragToSlideLayout:V1.0.2'
 	      }
  
 效果图
