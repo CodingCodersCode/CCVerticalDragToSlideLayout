@@ -98,9 +98,9 @@ public class CCVerticalDragToSlideLayout extends ViewGroup {
 
             childView = getChildAt(childIndex);
 
-            if (childView.getVisibility() == View.GONE) {
+            /*if (childView.getVisibility() == View.GONE) {
                 continue;
-            }
+            }*/
 
             childView.layout(0, 0, r - l, b - t);
 
